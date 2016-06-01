@@ -1,7 +1,8 @@
 # Drupal 7 installation with drush
 
 ```
-drush dl drupal-7.x --drupal-project-rename=nppvius
+drush dl drupal-7.x --drupal-project-rename=drupalsite
+cd drupalsite
 
 drush dl drush_language, admin_menu, adminimal_admin_menu, devel, fancybox, token, ctools, jquery_update, l10n_update, module_filter, pathauto,views, ckeditor, insert, transliteration -y
 
