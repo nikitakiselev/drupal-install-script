@@ -18,10 +18,10 @@ drush language-add ru
 drush language-default ru
 drush l10n-update-refresh && drush l10n-update
 
-drush dl professional_theme -y
-drush en professional_theme -y
+drush dl html5_base -y
 
-drush vset theme_default professional_theme
+#drush en html5_base -y
+#drush vset theme_default html5_base
 
 drush cc all
 
