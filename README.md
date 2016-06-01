@@ -4,7 +4,7 @@
 drush dl drupal-7.x --drupal-project-rename=drupalsite
 cd drupalsite
 
-drush si standart --account-name=admin --account-pass=admin --db-su=root --db-url=mysql://root@'localhost'/drupalsite --site-name='Drupal install'
+drush si standart --account-name=admin --account-pass=admin --db-su=root --db-su-pw=[root_pass] --db-url=mysql://root@'localhost'/drupalsite --site-name='Drupal install'
 
 drush dl drush_language, admin_menu, adminimal_admin_menu, devel, fancybox, token, ctools, jquery_update, l10n_update, module_filter, pathauto,views, ckeditor, insert, transliteration -y
 
